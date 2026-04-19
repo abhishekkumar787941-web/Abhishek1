@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Real Estate</title>
+    <style>
+        :root {
+            --primary: #ff4757;
+            --secondary: #2f3542;
+            --accent: #2ed573;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f1f2f6;
+            overflow-x: hidden;
+        }
+
+        /* Navbar with slide-down effect */
+        nav {
+            background: var(--secondary);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            animation: slideDown 1s ease-out;
+        }
+
+        @keyframes slideDown { from { transform: translateY(-100%); } to { transform: translateY(0); } }
+
+        /* Hero Section */
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80');
+            background-size: cover;
+            color: white;
+        }
+
+        /* Colorful Building Card with Animation */
+        .building-card {
+            background: white;
+            color: #333;
+            padding: 30px;
+            border-radius: 20px;
+            margin-top: -50px;
+            width: 300px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            border-bottom: 5px solid var(--primary);
+            animation: bounceIn 1.5s ease;
+            transition: 0.4s;
+        }
+
+        .building-card:hover { transform: scale(1.05) rotate(2deg); }
+
+        @keyframes bounceIn {
+            0% { opacity: 0; transform: scale(0.3); }
+            50% { opacity: 1; transform: scale(1.05); }
+            70% { transform: scale(0.9); }
+            100% { transform: scale(1); }
+        }
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s, letter-spacing 0.3s;
+        }
+
+        .btn:hover { background: var(--accent); letter-spacing: 1px; }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div style="font-size: 24px; font-weight: bold;">ABHISHEK REAL ESTATE</div>
+        <div>Home | Properties | Contact</div>
+    </nav>
+
+    <div class="hero">
+        <h1 style="font-size: 3rem;">Build Your Dream Home</h1>
+        <p>Expertise in modern architecture and urban living.</p>
+    </div>
+
+    <center>
+        <div class="building-card">
+            <h2 style="color: var(--primary);">Premium Project</h2>
+            <p>Modern colorful apartments with 24/7 security and lush gardens.</p>
+            <button class="btn">View Details</button>
+        </div>
+    </center>
+
+    <div style="padding: 100px 20px; text-align: center;">
+        <h2>Why Choose Abhishek Real Estate?</h2>
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <div style="background: #2ed573; color: white; padding: 20px; border-radius: 10px; width: 150px;">Verified Sites</div>
+            <div style="background: #ffa502; color: white; padding: 20px; border-radius: 10px; width: 150px;">Best Pricing</div>
+            <div style="background: #1e90ff; color: white; padding: 20px; border-radius: 10px; width: 150px;">Fast Approval</div>
+        </div>
+    </div>
+
+</body>
+</html>
