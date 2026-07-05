@@ -3,7 +3,7 @@
 <!-- Animated Typing Intro -->
 <p align="left">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FFCC&width=500&lines=Python+Developer;Cloud+Services+implements+(AWS);Frontend+Designer;Open+Source+Contributor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FFCC&width=500&lines=Python+Developer;Cloud+Enthusiast+(AWS);Frontend+Designer;Open+Source+Contributor" alt="Typing SVG" />
   </a>
 </p>
 
@@ -25,19 +25,12 @@ Highly motivated developer focused on building scalable backend structures and d
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ Languages & Frameworks
 
 ### 🐍 Backend & Automation
 <p align="left">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
-  </a>
-</p>
-
-### ☁️ Cloud Infrastructure
-<p align="left">
-  <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="55" height="55"/>
   </a>
 </p>
 
@@ -52,10 +45,37 @@ Highly motivated developer focused on building scalable backend structures and d
   </a>
 </p>
 
-### 🔧 Version Control & Tools
+---
+
+## ⚙️ Tools & Technologies
+
+### ☁️ Cloud Platforms & Hosting
 <p align="left">
+  <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="55" height="55"/>
+  </a>
+</p>
+
+### 🔧 DevOps, Version Control & Environments
+<p align="left">
+  <!-- Git -->
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="50" height="50"/>
+  </a>
+  &nbsp;&nbsp;
+  <!-- GitHub -->
+  <a href="https://github.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="50" height="50" style="filter: invert(1);"/>
+  </a>
+  &nbsp;&nbsp;
+  <!-- VS Code -->
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="50" height="50"/>
+  </a>
+  &nbsp;&nbsp;
+  <!-- Linux Terminal OS -->
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50"/>
   </a>
 </p>
 
@@ -75,15 +95,6 @@ Here is a look at my overall development metrics, languages used, and activity s
 <p align="center">
   <!-- Continuous Coding Streak Counter -->
   <img width="97%" src="https://github-readme-streak-stats.herokuapp.com/?user=AbhishekKumar&theme=dracula&hide_border=true" alt="Abhishek's GitHub Streak" />
-</p>
-
----
-
-## 📈 My Coding Contribution Graph
-
-<!-- Continuous Activity Snake Tracker -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AbhishekKumar/AbhishekKumar/output/github-contribution-grid-snake.svg" alt="Activity Snake Grid" />
 </p>
 
 ---
