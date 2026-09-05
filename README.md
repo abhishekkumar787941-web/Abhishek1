@@ -1,114 +1,283 @@
-# Hi there, I'm Abhishek Kumar 👋
+<div align="center">
 
-<!-- Animated Typing Intro -->
-<p align="left">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FFCC&width=500&lines=Python+Developer;Cloud+Enthusiast+(AWS);Frontend+Designer;Open+Source+Contributor" alt="Typing SVG" />
+  <h1>☁️ Cloud & DevOps Project</h1>
+
+  <h3>
+    🚀 Cloud Infrastructure | CI/CD | Docker | Kubernetes | Terraform
+  </h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazonaws&logoColor=white">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
+    <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white">
+    <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white">
+  </p>
+
+</div>
+
+<hr>
+
+<h2>📌 About The Project</h2>
+
+<p>
+  This project demonstrates a complete Cloud and DevOps environment
+  for deploying, managing, and monitoring applications using modern
+  DevOps tools and cloud technologies.
+</p>
+
+<p>
+  The main objective is to automate the complete application lifecycle
+  from source code management to production deployment.
+</p>
+
+<h2>🎯 Project Objectives</h2>
+
+<ul>
+  <li>Deploy application infrastructure on AWS</li>
+  <li>Containerize applications using Docker</li>
+  <li>Automate CI/CD using Jenkins</li>
+  <li>Deploy applications using Kubernetes</li>
+  <li>Provision infrastructure using Terraform</li>
+  <li>Implement monitoring and logging</li>
+  <li>Improve application scalability and reliability</li>
+</ul>
+
+<h2>🛠️ Technologies Used</h2>
+
+<table>
+  <tr>
+    <th>Technology</th>
+    <th>Purpose</th>
+  </tr>
+
+  <tr>
+    <td>☁️ AWS</td>
+    <td>Cloud Infrastructure</td>
+  </tr>
+
+  <tr>
+    <td>🐧 Linux</td>
+    <td>Server Management</td>
+  </tr>
+
+  <tr>
+    <td>🔧 Git & GitHub</td>
+    <td>Version Control</td>
+  </tr>
+
+  <tr>
+    <td>🐳 Docker</td>
+    <td>Containerization</td>
+  </tr>
+
+  <tr>
+    <td>☸️ Kubernetes</td>
+    <td>Container Orchestration</td>
+  </tr>
+
+  <tr>
+    <td>🔄 Jenkins</td>
+    <td>CI/CD Automation</td>
+  </tr>
+
+  <tr>
+    <td>🏗️ Terraform</td>
+    <td>Infrastructure as Code</td>
+  </tr>
+
+  <tr>
+    <td>📊 Prometheus</td>
+    <td>Monitoring</td>
+  </tr>
+
+  <tr>
+    <td>📈 Grafana</td>
+    <td>Visualization</td>
+  </tr>
+</table>
+
+<h2>🏗️ Architecture</h2>
+
+<div align="center">
+
+<pre>
+        👨‍💻 Developer
+              │
+              ▼
+        ┌─────────────┐
+        │   GitHub    │
+        └──────┬──────┘
+               │
+               ▼
+        ┌─────────────┐
+        │   Jenkins   │
+        │    CI/CD    │
+        └──────┬──────┘
+               │
+               ▼
+        ┌─────────────┐
+        │    Docker   │
+        └──────┬──────┘
+               │
+               ▼
+        ┌─────────────┐
+        │   Registry  │
+        └──────┬──────┘
+               │
+               ▼
+        ┌─────────────┐
+        │ Kubernetes  │
+        │   Cluster   │
+        └──────┬──────┘
+               │
+       ┌───────┴───────┐
+       ▼               ▼
+   ┌────────┐      ┌────────┐
+   │  Pod   │      │  Pod   │
+   │  App   │      │  App   │
+   └────────┘      └────────┘
+               │
+               ▼
+          ☁️ AWS Cloud
+</pre>
+
+</div>
+
+<h2>🔄 CI/CD Pipeline</h2>
+
+<ol>
+  <li>Developer pushes code to GitHub</li>
+  <li>Jenkins detects the new code</li>
+  <li>Application is built</li>
+  <li>Automated tests are executed</li>
+  <li>Docker image is created</li>
+  <li>Docker image is pushed to the registry</li>
+  <li>Kubernetes deployment is triggered</li>
+  <li>Application becomes available to users</li>
+</ol>
+
+<h2>🐳 Docker Commands</h2>
+
+<pre>
+docker build -t cloud-devops-app .
+docker run -d -p 8080:8080 cloud-devops-app
+docker ps
+docker images
+</pre>
+
+<h2>☸️ Kubernetes Commands</h2>
+
+<pre>
+kubectl apply -f kubernetes/
+kubectl get pods
+kubectl get services
+kubectl get deployments
+kubectl describe pod &lt;pod-name&gt;
+</pre>
+
+<h2>🏗️ Terraform Commands</h2>
+
+<pre>
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
+</pre>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
+cloud-devops-project/
+│
+├── app/
+│   ├── Dockerfile
+│   └── src/
+│
+├── kubernetes/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── ingress.yaml
+│
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── providers.tf
+│
+├── scripts/
+│   ├── deploy.sh
+│   └── setup.sh
+│
+├── Jenkinsfile
+│
+└── README.md
+</pre>
+
+<h2>📊 Monitoring</h2>
+
+<p>
+  Application and infrastructure monitoring can be implemented using
+  Prometheus and Grafana.
+</p>
+
+<ul>
+  <li>CPU utilization</li>
+  <li>Memory utilization</li>
+  <li>Application requests</li>
+  <li>Error rates</li>
+  <li>Server health</li>
+  <li>Container health</li>
+</ul>
+
+<h2>🔐 Security</h2>
+
+<ul>
+  <li>Use AWS IAM with least-privilege permissions</li>
+  <li>Protect sensitive credentials</li>
+  <li>Use Security Groups and network controls</li>
+  <li>Never commit passwords or API keys to GitHub</li>
+  <li>Use HTTPS for production applications</li>
+</ul>
+
+<h2>🚀 Future Improvements</h2>
+
+<ul>
+  <li>☸️ Deploy on Amazon EKS</li>
+  <li>📦 Add Helm charts</li>
+  <li>🔐 Add security scanning</li>
+  <li>📊 Add advanced Grafana dashboards</li>
+  <li>🔄 Implement blue-green deployment</li>
+  <li>📈 Implement auto-scaling</li>
+  <li>🔔 Add application alerting</li>
+</ul>
+
+<h2>👨‍💻 Author</h2>
+
+<p>
+  <strong>Your Name</strong><br>
+  Cloud & DevOps Engineer
+</p>
+
+<p>
+  <a href="https://github.com/YOUR-USERNAME">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+
+  <a href="https://linkedin.com/in/YOUR-USERNAME">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
 </p>
 
-<!-- Profile Views Counter Badge -->
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=AbhishekKumar&label=Profile%20Views&color=00FFCC&style=flat-square" alt="Views Counter" />
+<hr>
+
+<div align="center">
+
+<h3>⭐ If you like this project, please give it a star!</h3>
+
+<p>
+  <strong>☁️ Cloud + ⚙️ DevOps + 🚀 Automation</strong>
 </p>
 
----
-
-## 💫 About Me
-
-Highly motivated developer focused on building scalable backend structures and deploying resilient cloud architectures. I love bridging the gap between clean, readable code and robust infrastructure automation.
-
-- 🚀 **Exploring:** Advanced AWS Services, Serverless deployment, and CI/CD pipelines.
-- 💻 **Core Focus:** Clean Python programming and building intuitive web structures.
-- 💬 **Ask me about:** Git workflows, cloud security networks, or basic automation scripts.
-- 📫 **How to reach me:** Leave an issue or connect through my social links below!
-
----
-
-## 🛠️ Languages & Frameworks
-
-### 🐍 Backend & Automation
-<p align="left">
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
-  </a>
-</p>
-
-### 🌐 Frontend Fundamentals
-<p align="left">
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="50" height="50"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="50" height="50"/>
-  </a>
-</p>
-
----
-
-## ⚙️ Tools & Technologies
-
-### ☁️ Cloud Platforms & Hosting
-<p align="left">
-  <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="55" height="55"/>
-  </a>
-</p>
-
-### 🔧 DevOps, Version Control & Environments
-<p align="left">
-  <!-- Git -->
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="50" height="50"/>
-  </a>
-  &nbsp;&nbsp;
-  <!-- GitHub -->
-  <a href="https://github.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="50" height="50" style="filter: invert(1);"/>
-  </a>
-  &nbsp;&nbsp;
-  <!-- VS Code -->
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="50" height="50"/>
-  </a>
-  &nbsp;&nbsp;
-  <!-- Linux Terminal OS -->
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="50" height="50"/>
-  </a>
-</p>
-
----
-
-## 📊 Real-Time GitHub Performance Dashboard
-
-Here is a look at my overall development metrics, languages used, and activity streaks across GitHub repositories.
-
-<p align="center">
-  <!-- General Github Statistics Card -->
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=AbhishekKumar&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true" alt="Abhishek's GitHub Stats" />
-  <!-- Most Used Coding Languages Chart -->
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhishekKumar&layout=compact&theme=dracula&hide_border=true" alt="Abhishek's Top Languages" />
-</p>
-
-<p align="center">
-  <!-- Continuous Coding Streak Counter -->
-  <img width="97%" src="https://github-readme-streak-stats.herokuapp.com/?user=AbhishekKumar&theme=dracula&hide_border=true" alt="Abhishek's GitHub Streak" />
-</p>
-
----
-
-## 🤝 Let's Connect!
-
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_URL" target="blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:your.email@example.com" target="blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
-
-> *"The best way to predict the future is to invent it."* 🚀
+</div>
