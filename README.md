@@ -253,10 +253,10 @@ cloud-devops-project/
   <li>🔔 Add application alerting</li>
 </ul>
 
-<h2>👨‍💻 Author</h2>
+<h2>👨‍💻 Author-Abhishek Kumar</h2>
 
 <p>
-  <strong>Your Name</strong><br>
+  <strong>Abhishek kumar</strong><br>
   Cloud & DevOps Engineer
 </p>
 
